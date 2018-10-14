@@ -7,6 +7,7 @@
 //
 
 #import "BHExampleViewController.h"
+#import "BHSingletonObject.h"
 
 @interface BHExampleViewController ()
 
@@ -26,7 +27,17 @@ static NSString *const DEMO_VIEWS_STORYBOARD_NAME = @"DemoViews";
 
 - (void)viewDidLoad {
   [super viewDidLoad];
+
+	// 创建一个单例的实例对象
+	BHSingletonObject *singletonObject1 = [BHSingletonObject sharedInstance];
+	NSLog(@"%@", singletonObject1); // 输出: <BHSingletonObject: 0x600001647160>
+
+	// 销毁实例
+	[BHSingletonObject deallocInstance];
+
+	// 再次创建一个单例的实例对象
+	BHSingletonObject *singletonObject2 = [BHSingletonObject sharedInstance];
+	NSLog(@"%@", singletonObject2); // 输出: <BHSingletonObject: 0x600001647160>
 }
 
 @end
-

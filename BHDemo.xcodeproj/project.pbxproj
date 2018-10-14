@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6F5A55512158D9770078916C /* BHExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A55502158D9770078916C /* BHExampleViewController.m */; };
+		6FA5045B21732BA300AC0F7D /* BHSingletonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA5045A21732BA300AC0F7D /* BHSingletonObject.m */; };
 		6FE8F9B52150E8D400107C93 /* BHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE8F9B42150E8D400107C93 /* BHAppDelegate.m */; };
 		6FE8F9BD2150E8D500107C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE8F9BC2150E8D500107C93 /* Assets.xcassets */; };
 		6FE8F9C32150E8D500107C93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE8F9C22150E8D500107C93 /* main.m */; };
@@ -18,6 +19,8 @@
 /* Begin PBXFileReference section */
 		6F5A554F2158D9770078916C /* BHExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BHExampleViewController.h; path = Classes/BHExampleViewController.h; sourceTree = "<group>"; };
 		6F5A55502158D9770078916C /* BHExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BHExampleViewController.m; path = Classes/BHExampleViewController.m; sourceTree = "<group>"; };
+		6FA5045921732BA300AC0F7D /* BHSingletonObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BHSingletonObject.h; path = Classes/BHSingletonObject.h; sourceTree = "<group>"; };
+		6FA5045A21732BA300AC0F7D /* BHSingletonObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BHSingletonObject.m; path = Classes/BHSingletonObject.m; sourceTree = "<group>"; };
 		6FE8F9B02150E8D400107C93 /* BHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE8F9B32150E8D400107C93 /* BHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHAppDelegate.h; sourceTree = "<group>"; };
 		6FE8F9B42150E8D400107C93 /* BHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHAppDelegate.m; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 			children = (
 				6F5A554F2158D9770078916C /* BHExampleViewController.h */,
 				6F5A55502158D9770078916C /* BHExampleViewController.m */,
+				6FA5045921732BA300AC0F7D /* BHSingletonObject.h */,
+				6FA5045A21732BA300AC0F7D /* BHSingletonObject.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -169,6 +174,7 @@
 			files = (
 				6F5A55512158D9770078916C /* BHExampleViewController.m in Sources */,
 				6FE8F9C32150E8D500107C93 /* main.m in Sources */,
+				6FA5045B21732BA300AC0F7D /* BHSingletonObject.m in Sources */,
 				6FE8F9B52150E8D400107C93 /* BHAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
